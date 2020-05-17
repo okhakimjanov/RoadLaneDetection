@@ -9,7 +9,7 @@ The functionality of the proposed system includes a range of image processing ma
   - HoughLines Transformation for completing the lines on an image
 
 # Expected output video:
-[![alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true (https://www.youtube.com/watch?v=wx3EbhdhwVg "Road Lane Processing")
+![![alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true (https://www.youtube.com/watch?v=wx3EbhdhwVg "Road Lane Processing")
 Click on the image above to see the full video
 
 **Disclaimer**: There are a number of improvements to the system that could be done later. First of all, instead of straight lines, it is better to use a more complex curve, which will be useful on curved sections of the road. Also, having information from previous frames available, averaging is not always a good strategy. It is better to use weighted average or priority values.
@@ -66,16 +66,16 @@ fps = cap.get(cv.CAP_PROP_FPS) # get the FPS of the video
  The next step is to resize the frame. We were asked to test our program on different resolutions so that we could find the Frame Per Second value in each case. The idea of calculating the frame is quite simple: we find the total amount of time required to process the frame, and divide 1 by this period which gives us the number of frames per second.
  The Time library helps us to complete this task. The results of this mission are provided below:
 **The average FPS of the video with resolution 1024x768 is 45.**
-![Alt text](/relative/path/to/img.jpg?raw=true "1024x768")
+![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true  "1024x768")
 
 **The average FPS of the video with resolution 800x600 is 75.**
-![Alt text](/relative/path/to/img.jpg?raw=true "800x600")
+![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/800x600.png?raw=true "800x600")
 
 **The average FPS of the video with resolution 640x480 is 111.**
-![Alt text](/relative/path/to/img.jpg?raw=true "640x480")
+![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/640x480.png?raw=true "640x480")
 
 **The average FPS of the video with resolution 400x300 is 166.**
-![Alt text](/relative/path/to/img.jpg?raw=true "400x300")
+![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/400x300.png?raw=true "400x300")
 
 The next step is to darken the frame by lowering the brightness which can be done easily if we first convert the color space from `BGR` to `HSV` which opens us to change the brightness of the image by its third value. We lower the brightness of all pixels by `20` so that it becomes darker and makes all light spots of the frame more visible. Later, we revert the color space back to the `BGR`.
 
