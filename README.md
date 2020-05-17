@@ -76,7 +76,7 @@ fps = cap.get(cv.CAP_PROP_FPS) # get the FPS of the video
 **The average FPS of the video with resolution 640x480 is 111.**
 <img src="https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/640x480.png?raw=true" width="640">
 
-**The average FPS of the video with resolution 400x300 is 166.**
+**The average FPS of the video with resolution 400x300 is 166.**<br/>
 <img src="https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/640x480.png?raw=true" width="400">
 
 The next step is to darken the frame by lowering the brightness which can be done easily if we first convert the color space from `BGR` to `HSV` which opens us to change the brightness of the image by its third value. We lower the brightness of all pixels by `20` so that it becomes darker and makes all light spots of the frame more visible. Later, we revert the color space back to the `BGR`.
