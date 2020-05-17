@@ -69,7 +69,7 @@ fps = cap.get(cv.CAP_PROP_FPS) # get the FPS of the video
  The Time library helps us to complete this task. The results of this mission are provided below:
 **The average FPS of the video with resolution 1024x768 is 45.**
 ![Alt text](https://github.com//okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png =1024x768)
-
+<img src="https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true" width="1024">
 **The average FPS of the video with resolution 800x600 is 75.**
 ![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/800x600.png?raw=true =800x600)
 
