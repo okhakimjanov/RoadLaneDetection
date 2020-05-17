@@ -12,7 +12,7 @@ The functionality of the proposed system includes a range of image processing ma
 
 [![alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true)](https://www.youtube.com/watch?v=wx3EbhdhwVg)
 
-Click on the image above to see the full video
+`Click on the image above to see the full video on YouTube`
 
 **Disclaimer**: There are a number of improvements to the system that could be done later. First of all, instead of straight lines, it is better to use a more complex curve, which will be useful on curved sections of the road. Also, having information from previous frames available, averaging is not always a good strategy. It is better to use weighted average or priority values.
 
@@ -68,7 +68,7 @@ fps = cap.get(cv.CAP_PROP_FPS) # get the FPS of the video
  The next step is to resize the frame. We were asked to test our program on different resolutions so that we could find the Frame Per Second value in each case. The idea of calculating the frame is quite simple: we find the total amount of time required to process the frame, and divide 1 by this period which gives us the number of frames per second.
  The Time library helps us to complete this task. The results of this mission are provided below:
 **The average FPS of the video with resolution 1024x768 is 45.**
-![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png?raw=true =1024x768)
+![Alt text](https://github.com//okhakimjanov/RoadLaneDetection/blob/master/Screenshots/1024x768.png =1024x768)
 
 **The average FPS of the video with resolution 800x600 is 75.**
 ![Alt text](https://github.com/okhakimjanov/RoadLaneDetection/blob/master/Screenshots/800x600.png?raw=true =800x600)
